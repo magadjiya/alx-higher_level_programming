@@ -2,7 +2,7 @@
 
 def print_list_integer(my_list=[]):
     """
-    Prints all the integera in a list
+    Prints all the integers in a list
 
     Args:
         @my_list: a list containing integers
