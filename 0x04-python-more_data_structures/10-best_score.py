@@ -18,6 +18,6 @@ def best_score(a_dictionary):
     max_key = None
     for key, value in a_dictionary.items():
         if value > max_value:
-            mmax_value = value
+            max_value = value
             max_key = key
     return (max_key)
