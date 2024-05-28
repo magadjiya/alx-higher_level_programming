@@ -1,10 +1,27 @@
 #!/usr/bin/python3
 
+"""
+This module defines a square with a private attr size
+
+Class:
+    Square: A square with private size
+"""
+
+
 class Square:
-    """
-    Defines a square based on 1-square.py
-    """
+    """Defines a square"""
+
     def __init__(self, size=0):
+        """
+        Initializes a Square instance with priate attribute size
+
+        Args:
+            @size (int): The size of the square, default value is 0
+
+        Raises:
+            TypeError: If size is not an integer
+            ValueError: If size is a negative value
+        """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         if size < 0:

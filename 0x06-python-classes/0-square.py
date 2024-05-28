@@ -4,8 +4,9 @@
 This module contains a class that defines a square
 
 Class:
-    Square: an empty clazs
+    Square: an empty class
 """
+
 
 class Square:
     """
