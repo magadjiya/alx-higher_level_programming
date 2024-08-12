@@ -4,7 +4,7 @@
 This module contains a class Rectangle
 
 Class:
-    Rectangle: a class
+    Rectangle: A rectangle with width and height
 """
 
 
